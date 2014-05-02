@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/layout_bordered"
+    android:orientation="vertical"
+    android:layout_margin="5dip" >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="fill_parent"
+        android:layout_height="300dip"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_transparent"
+        android:background="@drawable/layout_bordered" />
+
+    <RelativeLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="110dp"
+        android:background="@color/transparent"
+        android:gravity="left"
+       	android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_marginBottom="50dip"
+        android:paddingTop="10dip">
+
+       <TextView
+         android:id="@+id/name"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:ellipsize="end"
+         android:maxLines="1"
+         android:text="@string/name"
+         android:paddingRight="15dip"
+         android:textColor="@color/white"
+         android:textSize="13sp"
+         android:layout_toRightOf="@+id/user_image"
+         android:textStyle="italic" />
+     
+        
+        
+        <TextView
+            android:id="@+id/caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:paddingRight="15dip"
+            android:text="@string/slogan"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/user_image"
+            android:textStyle="bold" 
+            android:layout_below="@+id/name"/>
+
+        <TextView
+            android:id="@+id/summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/title"
+            android:maxLines="1"
+            android:paddingLeft="1dip"
+            android:layout_toRightOf="@+id/user_image"
+            android:text="@string/slogan"
+            android:textColor="#AF9B98"
+            android:textSize="15sp"
+            android:paddingRight="15dip"
+            android:textStyle="bold" 
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/user_image"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+        	android:layout_marginLeft="15dip"
+            android:src="@drawable/ic_launcher"
+            android:layout_marginRight="10dip"
+            />
+
+        
+        	
+        
+            <RelativeLayout             
+        	android:id="@+id/linearLayout2"
+        	android:layout_alignParentBottom="true"
+            android:layout_width="fill_parent"
+            android:layout_height="45dip"
+            android:paddingRight="15dip"
+            android:background="@color/lines">
+        
+                <TextView
+	  			    android:id="@+id/likes"
+	  			    android:layout_width="wrap_content"
+	  			    android:layout_height="wrap_content"
+	  			    android:layout_alignParentLeft="true"
+	  			    android:layout_centerVertical="true"
+	  			    android:drawableLeft="@drawable/like"
+	  			    android:gravity="center"
+	  			    android:text="3000 Likes"
+	  			    android:textStyle="italic"
+	  			    android:textColor="@color/listheader"/>
+                
+                    <TextView
+	  			    android:id="@+id/comments"
+	  			    android:layout_width="wrap_content"
+	  			    android:layout_height="wrap_content"
+	  			    android:layout_alignParentRight="true"
+	  			    android:layout_centerVertical="true"
+	  			    android:gravity="center"
+	  			    android:text="3.5k Comments"
+	  			    android:textStyle="italic"
+	  			    android:textColor="@color/listheader"/>
+                
+    		</RelativeLayout>
+    
+    </RelativeLayout>
+    
+
+
+</RelativeLayout>

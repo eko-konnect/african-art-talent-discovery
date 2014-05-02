@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <color name="black">#000</color>
+     <color name="white">#FFF</color>
+	<color name="color1">#C5DEEE</color>
+	<color name="color3">#28ADCB</color>
+     <color name="color2">#28ADCB</color>
+     <color name="blue">#0099CB</color>
+     <color name="title">#2d2d2d</color>
+     <color name="grey">#CCCCCC</color>
+     <color name="headercolor">#F5F5F5</color>
+     <color name="bodybackground">#DADADA</color>
+     <color name="listheader">#212121</color>
+     <color name="listbackground">#333333</color>
+     <color name="majorcolor1">#29AAD5</color>    
+     <color name="majorcolor2">#FF485B</color>    
+     <color name="bg_app">#222222</color>    
+     <color name="hover">#D7EFF7</color>    
+    <color name="content">#666666</color>  
+     <color name="transparent">#70000000</color>
+     <color name="griditembackgound">#B3000000</color>
+    <color name="lines">#CCCCCC</color>
+   <color name="text_tab_selected">#000000</color>
+    <color name="text_tab_unselected">#000000</color>
+    <color name="register_bg">#DADADA</color>
+    <color name="t1">#0D000000</color>
+    	<color name="tabMedium">#2B2B2B</color>
+	<color name="tabDark">#000000</color>
+	<color name="tabTransparent">#10ffffff</color>
+
+
+<!-- Black Transparent -->
+<color name="transparent_black_hex_1">#11000000</color>
+<color name="transparent_black_hex_2">#22000000</color>
+<color name="transparent_black_hex_3">#33000000</color>
+<color name="transparent_black_hex_4">#44000000</color>
+<color name="transparent_black_hex_5">#55000000</color>
+<color name="transparent_black_hex_6">#66000000</color>
+<color name="transparent_black_hex_7">#77000000</color>
+<color name="transparent_black_hex_8">#88000000</color>
+<color name="transparent_black_hex_9">#99000000</color>
+<color name="transparent_black_hex_10">#aa000000</color>
+<color name="transparent_black_hex_11">#bb000000</color>
+<color name="transparent_black_hex_12">#cc000000</color>
+<color name="transparent_black_hex_13">#dd000000</color>
+<color name="transparent_black_hex_14">#ee000000</color>
+<color name="transparent_black_hex_15">#ff000000</color>
+
+<color name="transparent_black_percent_5">#0D000000</color>
+<color name="transparent_black_percent_10">#1A000000</color>
+<color name="transparent_black_percent_15">#26000000</color>
+<color name="transparent_black_percent_20">#33000000</color>
+<color name="transparent_black_percent_25">#40000000</color>
+<color name="transparent_black_percent_30">#4D000000</color>
+<color name="transparent_black_percent_35">#59000000</color>
+<color name="transparent_black_percent_40">#66000000</color>
+<color name="transparent_black_percent_45">#73000000</color>
+<color name="transparent_black_percent_50">#80000000</color>
+<color name="transparent_black_percent_55">#8C000000</color>
+<color name="transparent_black_percent_60">#99000000</color>
+<color name="transparent_black_percent_65">#A6000000</color>
+<color name="transparent_black_percent_70">#B3000000</color>
+<color name="transparent_black_percent_75">#BF000000</color>
+<color name="transparent_black_percent_80">#CC000000</color>
+<color name="transparent_black_percent_85">#D9000000</color>
+<color name="transparent_black_percent_90">#E6000000</color>
+<color name="transparent_black_percent_95">#F2000000</color>
+<color name="transparent_white_percent_10">#26FFFFFF</color>
+
+</resources>

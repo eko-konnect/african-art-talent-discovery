@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AfriPhotos</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="caption">enter caption</string>
+    <string name="name">Name</string>
+    <string name="slogan">Home of contemporary African art</string>
+    <string name="skip_slogan">Please tap the image above to skip.</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="proceed">Proceed </string>
+    <string name="reg_info">Enter you details below and tap image above to choose a profile picture.</string>
+     <string name="refreshlistview_arrow">Content Description Arrow</string>
+    <string name="refreshlistview_updating">Updating…</string>
+    <string name="refreshlistview_release">Release to refresh…</string>
+    <string name="refreshlistview_pulldown">Pull down to refresh…</string>
+    <string name="refreshlistview_no_update">"No past update"</string>
+</resources>

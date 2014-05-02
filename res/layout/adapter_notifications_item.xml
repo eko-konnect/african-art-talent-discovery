@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"        
+		android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        
+        <ImageView
+            android:id="@+id/avatar"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_centerVertical="true"
+            android:src="@drawable/thumbnail"
+            android:scaleType="centerCrop"
+            android:layout_margin="10dip" />
+
+        
+
+        <TextView
+            android:id="@+id/comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/avatar"
+            android:text="Comment here"
+            android:layout_marginTop="5dip"
+            android:layout_marginRight="60dip" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/comment"
+            android:layout_below="@+id/comment"
+            android:text="12/12/2009"
+            android:textSize="12sp" 
+            android:textColor="@color/grey"
+            android:layout_marginBottom="5dip"/>
+
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_launcher_transparent"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop" />
+
+    </RelativeLayout>
+ 

@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/white" >
+    
+    
+      <com.ekoconnect.afriphotos.RefreshListView
+          android:id="@+id/comment_list"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent" 
+          android:layout_marginBottom="1dip"
+          android:dividerHeight="1dip"
+          android:divider="@color/grey"
+          android:padding="3dip"
+          android:layout_above="@+id/bottom_layer">
+      </com.ekoconnect.afriphotos.RefreshListView>
+      
+      <RelativeLayout 
+          android:id="@+id/bottom_layer"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:padding="8dip"
+          android:layout_alignParentBottom="true">
+          
+          <EditText
+          android:id="@+id/comment_text"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:hint="Enter comment here"
+          android:textColor="@color/black"
+          android:layout_marginRight="42dip">
+      </EditText>
+
+          <ImageButton
+              android:id="@+id/send"
+              android:layout_width="40dip"
+              android:layout_height="wrap_content"
+              android:layout_centerVertical="true"
+              android:layout_alignParentRight="true"
+              android:src="@drawable/abs__ic_go_search_api_holo_light" />
+          
+      </RelativeLayout>
+
+      
+      
+</RelativeLayout>

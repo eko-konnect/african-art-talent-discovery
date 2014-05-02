@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+	android:padding="20dip"
+	android:background="@color/white">
+    
+       <EditText
+           android:id="@+id/caption"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:background="@color/white"
+           android:ems="10"
+           android:hint="@string/caption"
+           android:inputType="textMultiLine"
+           android:lines="2"
+           android:padding="7dip"
+           android:gravity="top" />
+
+          <TextView
+           android:id="@+id/select_portfolio"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/caption"
+           android:text="Select portfolio" />
+       
+       <Spinner
+           android:id="@+id/portfolio"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/select_portfolio" />
+
+       <Button
+           android:id="@+id/create"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/caption"
+           android:text="Create"
+           android:visibility="gone" />
+
+ 
+
+</RelativeLayout>

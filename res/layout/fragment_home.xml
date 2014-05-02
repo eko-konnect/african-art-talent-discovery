@@ -1,0 +1,22 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/white" >
+    
+    
+      <com.ekoconnect.afriphotos.RefreshListView
+          android:id="@+id/photo_list"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent" 
+          android:layout_marginBottom="1dip"
+          android:dividerHeight="2dip"
+          android:divider="@color/white"
+          android:paddingLeft="2dip"
+          android:paddingRight="2dip"
+          >
+      </com.ekoconnect.afriphotos.RefreshListView>
+      
+      
+</RelativeLayout>
